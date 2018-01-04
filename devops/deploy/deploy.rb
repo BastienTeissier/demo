@@ -5,8 +5,7 @@ set :deploy_to, "/var/www/symfony-demo-bis"
 #set :repo_url, 'git@github.com:fansible/tywin.git'
 set :application, "my_app_name"
 set :repo_url, "https://github.com/BastienTeissier/demo"
-
-set :stages, %w(prod)
+#set :stages, %w(prod)
 
 #TODO: change to var/logs,var/cache,bin/console ... if it's a SF3 project
 set :log_path, "app/logs"
